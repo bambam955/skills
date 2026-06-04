@@ -1,0 +1,5 @@
+version: 0.1.0
+author: Bennett Moore
+license: MIT
+date: June 2026
+compatibility: '*nix system with glab CLI and tmpfiles'

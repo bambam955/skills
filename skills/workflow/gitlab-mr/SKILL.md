@@ -2,8 +2,6 @@
 name: gitlab-mr
 description: Work with GitLab merge requests. Use whenever you need to create, update, or interact with a GitLab merge request (MR).
 argument-hint: '[--create --update=<mr-id>]'
-requires:
-  - glab
 ---
 
 # GitLab MR
