@@ -15,7 +15,7 @@ This file contains generalized information for working with MRs.
 Load additional context based on flags passed by the user:
 
 - [`--create`](./reference/create.md) to create an MR
-- [`--update=<mr-id>](./reference/update.md) to update an MR, where `id` is the MR to update
+- [`--update=<mr-id>`](./reference/update.md) to update an MR, where `id` is the MR to update
   - Includes posting comments
 
 ## Gotchas
