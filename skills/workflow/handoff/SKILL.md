@@ -5,7 +5,7 @@ description: Compact the current conversation into a handoff document for anothe
 
 # Handoff
 
-Write a handoff document summarizing the current conversation so a fresh agent can continue the work. Closely follow [the template](./templates/handoff.md.template) for document structure.
+Write a handoff document summarizing the current conversation so a fresh agent can continue the work. Closely follow [the template](./templates/handoff.template.md) for document structure.
 
 ## Workflow
 
@@ -13,7 +13,7 @@ Write a handoff document summarizing the current conversation so a fresh agent c
    - Goal for the new thread (default: implement the plan)
    - Specific context/decisions to emphasize (default: max of 5 major points)
    - Relevant files to link in the doc (default: max of 5 heavily modified files)
-2. Compact the current conversation into a concise, actionable summary document. Follow [this template](./templates/handoff.md.template).
+2. Compact the current conversation into a concise, actionable summary document. Follow [this template](./templates/handoff.template.md).
    - Ensure all clarified points are included.
    - If any code changes/other work was WIP at time of handoff, it should be included/referenced.
    - Include any config/setup details relevant to the task at hand.
