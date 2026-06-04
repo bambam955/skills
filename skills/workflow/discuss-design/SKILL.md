@@ -5,7 +5,7 @@ description: Interview the user about a plan/design in a structured, paced manne
 
 # Discuss Design
 
-Interview the user about all aspects of this plan until we have reached a shared understanding on all of the main technical decisions. 
+Interview the user about all aspects of this plan until we have reached a shared understanding on all of the main technical decisions.
 
 The goal is to ensure that you are fully aligned with the user on the direction to take before doing any implementation.
 
