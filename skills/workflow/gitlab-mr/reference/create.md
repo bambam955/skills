@@ -43,8 +43,8 @@ This document outlines the workflow and guidelines for creating a GitLab merge r
 
 ## Guidelines
 
-- **Always** assign me to the MR. This is important for project management.
-- **Never** mark the MR as ready on your own. That will be done by me.
+- **Always** assign the user to the MR. This is important for project management.
+- **Never** mark the MR as ready on your own. That will be done by the user.
 - **Always** use conventional commit format for MR titles.
 
 ### Writing descriptions

@@ -4,7 +4,7 @@ This document explains how to update a GitLab merge request that was already cre
 
 ## Workflow
 
-Remember that the ID of the MR to update was passed as an argument by me.
+Remember that the ID of the MR to update was passed as an argument by the user.
 
 ### Update description
 

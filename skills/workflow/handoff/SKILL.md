@@ -1,6 +1,7 @@
 ---
 name: handoff
 description: Compact the current conversation into a handoff document for another agent to pick up. Use when requested by a user, when the current thread would be best carried out in a fresh thread, or when the context window is getting too full.
+argument-hint: '[--plan-file=<path>]'
 ---
 
 # Handoff
@@ -17,7 +18,7 @@ Write a handoff document summarizing the current conversation so a fresh agent c
    - Ensure all clarified points are included.
    - If any code changes/other work was WIP at time of handoff, it should be included/referenced.
    - Include any config/setup details relevant to the task at hand.
-3. Save the document to `PLAN.md` (or user-set path if `--file=<path>` was passed).
+3. Save the document to `PLAN.md` (or user-set path if `--plan-file=<path>` was passed).
 
 ## Guidelines
 
@@ -28,7 +29,7 @@ If the user passed additional args, treat them as a description of what the next
 
 ## Output
 
-A single `PLAN.md` file in the current workspace. The filepath can be overridden if the user passes `--file=<path>` as an argument.
+A single `PLAN.md` file in the current workspace. The filepath can be overridden if the user passes `--plan-file=<path>` as an argument.
 
 ## Gotchas
 

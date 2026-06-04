@@ -5,13 +5,13 @@ description: Interview the user about a plan/design in a structured, paced manne
 
 # Discuss Design
 
-Interview me about all aspects of this plan until we have reached a shared understanding on all of the main technical decisions. 
+Interview the user about all aspects of this plan until we have reached a shared understanding on all of the main technical decisions. 
 
-The goal is to ensure that you are fully aligned with me on the direction to take before doing any implementation.
+The goal is to ensure that you are fully aligned with the user on the direction to take before doing any implementation.
 
 ## Workflow
 
-1. Make sure you are in sync with me about the overall goal or problem and its context and constraints. Ask for clarity if needed.
+1. Make sure you are in sync with the user about the overall goal or problem and its context and constraints. Ask for clarity if needed.
 2. Repeat the following steps as many times as necessary, until all design decisions are resolved:
     1. Examine the current context and plan for lingering assumptions or questions or areas where you may have to jump to conclusions.
     2. Laser in on _one_ particular question.
@@ -20,7 +20,7 @@ The goal is to ensure that you are fully aligned with me on the direction to tak
        - If `yes`, update the current context/plan with the answer and go back to step 1.
        - If `no`, proceed to step 4.
     4. Present a couple sentences explaining why the question needs answered.
-    5. Come up with 3-4 possible answers and present them to me.
+    5. Come up with 3-4 possible answers and present them to the user.
        - Highlight which one is your recommended solution.
        - Include one pro and one con for each alternative.
        - Add one option for "Explain in more detail, then ask again".
