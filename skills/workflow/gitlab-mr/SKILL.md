@@ -1,7 +1,7 @@
 ---
 name: gitlab-mr
 description: Work with GitLab merge requests. Use whenever you need to create, update, or interact with a GitLab merge request (MR).
-argument-hint: '[--create --update=<mr-id>]'
+argument-hint: '[--create] [--update=<mr-id>]'
 ---
 
 # GitLab MR
@@ -18,6 +18,6 @@ Load additional context based on flags passed by the user:
 - [`--update=<mr-id>`](./reference/update.md) to update an MR, where `id` is the MR to update
   - Includes posting comments
 
-## Gotchas
+## Guidelines
 
-- Always use the `glab` CLI for working with MRs. If it's not installed, alert the user and stop immediately.
+- **Always** use the `glab` CLI for working with MRs. If it's not installed, alert the user and stop immediately.

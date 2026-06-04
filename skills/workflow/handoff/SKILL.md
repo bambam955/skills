@@ -1,7 +1,7 @@
 ---
 name: handoff
 description: Compact the current conversation into a handoff document for another agent to pick up. Use when requested by a user, when the current thread would be best carried out in a fresh thread, or when the context window is getting too full.
-argument-hint: '[--plan-file=<path>]'
+argument-hint: '[--plan-file=<path>] [goals-for-next-thread]'
 ---
 
 # Handoff
@@ -22,10 +22,9 @@ Write a handoff document summarizing the current conversation so a fresh agent c
 
 ## Guidelines
 
-Do not duplicate content already captured in other artifacts (PRDs, plans, ADRs, issues, commits, diffs). Reference them by path or URL instead.
-Avoid summarizing/over-generalized to the point that key context from the current thread is lost.
-
-If the user passed additional args, treat them as a description of what the next thread will focus on and tailor the doc accordingly.
+- **Never** duplicate content already captured in other artifacts (PRDs, plans, ADRs, issues, commits, diffs). **Always** reference those artifacts by path/URL instead.
+- **Never** over-summarize/over-generalize to the point that key context from the current thread is lost.
+- **Always** tread `goals-for-next-thread` as a description of what the next thread will focus on. Tailor the handoff doc accordingly.
 
 ## Output
 

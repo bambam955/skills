@@ -28,11 +28,14 @@ The goal is to ensure that you are fully aligned with the user on the direction 
 
 ## Guidelines
 
-Walk down all branches of the design tree and resolve each decision one-by-one. Avoid premature conclusions or rushing ahead. Stay focused on the task at hand.
+- **Always** walk down all branches of the design tree, resolving each decision one-by-one. Stay focused on the task at hand.
+  - **Never** make premature conclusions or rush ahead.
+- **Always** focus on design concepts. **Ask approval** before getting into nitty-gritty implementation details, and avoid doing so if possible, because it bogs down a discussion very quickly.
+- **Never** implement anything unless explicitly told to do so.
 
-Focus on the design **concepts**. Do not get into the nitty-gritty of implementation details unless I explicitly ask about them. Doing so quickly bogs down the discussion.
+## Output
 
-Do **not** implement anything until I expressly tell you to move forward.
+Summary of the discussion's decisions in bullet points.
 
 ## Gotchas
 
