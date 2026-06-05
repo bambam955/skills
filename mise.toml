@@ -1,4 +1,5 @@
 [tools]
-markdownlint-cli2 = "latest"
-yamlfmt = "latest"
-hk = "latest"
+# This is the CLI used for managing skills.
+# Source: https://github.com/vercel-labs/skills
+"npm:skills" = "1.5"
+"pipx:pre-commit" = "latest"
