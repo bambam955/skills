@@ -4,12 +4,11 @@ default:
 
 # Install all skills, both local and remote.
 get:
-    skills experimental_install
-
-gen-locks:
     #!/usr/bin/env bash
-    echo -n "workflow/gitlab-mr: "
-    find ./skills/workflow/gitlab-mr/ -type f | sort | xargs cat | shasum -a 256 | awk '{print $1}'
+    TMP_FILE="$(mktemp)"
+    cp skills-lock.json "$TMP_FILE"
+    skills experimental_install
+    cp "$TMP_FILE" skills-lock.json
 
 # Setup environment
 setup:
