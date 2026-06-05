@@ -1,0 +1,16 @@
+{
+  "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+  "notGrouped": "bottom",
+  "groupings": [
+    {
+      "title": "GitLab",
+      "description": "Skills for working seamlessly inside GitLab.",
+      "skills": ["gitlab-mr"]
+    },
+    {
+      "title": "Design",
+      "description": "Skills for efficiently creating plans before implementing.",
+      "skills": ["discuss-design", "handoff"]
+    }
+  ]
+}
