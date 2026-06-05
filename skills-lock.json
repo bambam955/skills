@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "skills": {
+    "discuss-design": {
+      "source": "/home/bennett-moore/projects/personal/skills/skills/workflow/discuss-design",
+      "sourceType": "local",
+      "computedHash": "71788eb100b68dddd73b245636653537daa17a90d9abc1f5cfc8fde8c74e9190"
+    },
+    "gitlab-babysit-mr": {
+      "source": "git@gitlab.com:gitlab-org/ai/skills.git",
+      "sourceType": "git",
+      "skillPath": "skills/gitlab-babysit-mr/SKILL.md",
+      "computedHash": "568d4342431aff9cf0ee06be77d4aeb96b6c8eb97d18e7ddf4ee7485013f0cfc"
+    },
+    "gitlab-mr": {
+      "source": "/home/bennett-moore/projects/personal/skills/skills/workflow/gitlab-mr",
+      "sourceType": "local",
+      "computedHash": "5544535643f728bee811c08e84251c6e2da023ca333ec14321c317e204812531"
+    },
+    "glab": {
+      "source": "git@gitlab.com:gitlab-org/ai/skills.git",
+      "sourceType": "git",
+      "skillPath": "skills/glab/SKILL.md",
+      "computedHash": "b9c16f0784a1318003d88c1109ba041c769de90333fa40050e914309332518e8"
+    },
+    "glab-glql": {
+      "source": "git@gitlab.com:gitlab-org/ai/skills.git",
+      "sourceType": "git",
+      "skillPath": "skills/glab-glql/SKILL.md",
+      "computedHash": "21694fa5c162084411afbe727552b2338ff5810e502644f772afa50c5f7876be"
+    },
+    "handoff": {
+      "source": "/home/bennett-moore/projects/personal/skills/skills",
+      "sourceType": "local",
+      "computedHash": "f37bcded710f31dc9403e3ea283381ee7029ecc640f739e8a96ccecfba9f52fa"
+    },
+    "opencode-refine": {
+      "source": "git@gitlab.com:gitlab-org/ai/skills.git",
+      "sourceType": "git",
+      "skillPath": "skills/opencode-refine/SKILL.md",
+      "computedHash": "b62a66e7c271c7be6b076378238b5f835c6ec1fc0bd0048ab7a1c44e459f0749"
+    }
+  }
+}
