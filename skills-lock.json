@@ -59,12 +59,12 @@
       "computedHash": "f37bcded710f31dc9403e3ea283381ee7029ecc640f739e8a96ccecfba9f52fa"
     },
     "implement-github-issue": {
-      "source": "/home/bennett-moore/projects/personal/skills/skills/workflow/implement-github-issue",
+      "source": "./skills/workflow/implement-github-issue",
       "sourceType": "local",
       "computedHash": "6fb35c99744e8def68cf882c3fb035533bb6a25a44c77424fb2c0b82e126f54c"
     },
     "implement-gitlab-issue": {
-      "source": "/home/bennett-moore/projects/personal/skills/skills/workflow/implement-gitlab-issue",
+      "source": "./skills/workflow/implement-gitlab-issue",
       "sourceType": "local",
       "computedHash": "fd3d0f7f84baf4e074fc704f519421c75fa9298d13deea86792c0042f55d940e"
     },
